@@ -10,7 +10,7 @@ Hystrix-dynamicvar use a customized [concurrency strategy](https://github.com/Ne
 
 First add dependency
 ```
-[hystrix-dynamicvar "0.1.0"]
+[hystrix-dynamicvar "0.1.1"]
 ```
 Then
 ```clj

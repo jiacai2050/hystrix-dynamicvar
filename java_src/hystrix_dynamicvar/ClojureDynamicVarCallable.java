@@ -17,7 +17,6 @@ public class ClojureDynamicVarCallable implements Callable {
 
     public ClojureDynamicVarCallable(List<Var> dynamicVars, Callable actual) {
         this.actual = actual;
-        this.dynamicVarBindings = PersistentHashMap.create();
         // loadFactor chose to 1 to prevent rehashing at the cost of O(n) of put/get
         // this is fine since it's used only once
         // https://stackoverflow.com/questions/15844035/best-hashmap-initial-capacity-while-indexing-a-list
