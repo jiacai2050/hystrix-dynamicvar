@@ -33,7 +33,7 @@ public class ClojureDynamicVarCallable implements Callable {
         try {
             return actual.call();
         } finally {
-            Var.pushThreadBindings(dynamicVarBindings);
+            Var.popThreadBindings();
         }
     }
 }

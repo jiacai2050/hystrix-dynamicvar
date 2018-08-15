@@ -1,4 +1,4 @@
-(defproject hystrix-dynamicvar "0.1.1"
+(defproject hystrix-dynamicvar "0.1.2"
   :description "Clojure dynamic var binding in hystrix command"
   :url "https://github.com/jiacai2050/hystrix-dynamicvar"
   :scm {:url "https://github.com/jiacai2050/hystrix-dynamicvar"
